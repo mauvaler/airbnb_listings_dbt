@@ -3,7 +3,7 @@ WITH
     SELECT
       *
     FROM
-      AIRBNB.RAW.RAW_REVIEWS
+      Asource {{ ('airbnb', 'reviews') }}
   )
 SELECT
   listing_id,
