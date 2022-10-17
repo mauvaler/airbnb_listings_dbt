@@ -20,6 +20,6 @@ models:
         tests:
           - accepted_values:
               values: ['Entire home/apt',
-                     'Private room',
-                     'Shared room',
-                     'Hotel room']
+                       'Private room',
+                       'Shared room',
+                       'Hotel room']
