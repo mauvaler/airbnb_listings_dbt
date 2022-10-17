@@ -1,14 +1,12 @@
 WITH l AS (
     SELECT
       *
-    FROM
-        {{ref('dim_listings_cleansed')}}
+    FROM {{ ref('dim_listings_cleansed') }}
 ),
 h AS (
     SELECT
       *
-    FROM
-        {{ref('dim_hosts_cleansed')}}
+    FROM {{ ref('dim_hosts_cleansed') }}
 )
 SELECT
   l.listing_id,
@@ -21,6 +19,5 @@ SELECT
   h.is_superhost as host_is_superhost,
   l.created_at,
   GREATEST(l.updated_at, h.updated_at) as updated_at
-FROM
-  l
+FROM l
   LEFT JOIN h ON (h.host_id = l.host_id)

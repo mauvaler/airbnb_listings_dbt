@@ -1,5 +1,4 @@
-WITH
-  raw_listings AS (
+WITH raw_listings AS (
     SELECT
       *
     FROM 
