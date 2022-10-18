@@ -3,7 +3,7 @@ WITH
     SELECT
       *
     FROM
-      source {{ ('airbnb', 'reviews') }}
+      {{ source ('airbnb', 'reviews') }}
   )
 SELECT
   listing_id,

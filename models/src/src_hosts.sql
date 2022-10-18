@@ -3,7 +3,7 @@ WITH
     SELECT
       *
     FROM
-      source {{ ('airbnb', 'hosts') }}
+      {{ source ('airbnb', 'hosts') }}
   )
 SELECT
   id AS host_id,
