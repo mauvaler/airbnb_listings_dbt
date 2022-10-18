@@ -20,4 +20,9 @@ Try running the following commands:
 
 ### Project Overview:
 
+Checking whether full moon impacts on Airbnb's reviews from Berlin.
+
 Data Source: http://insideairbnb.com/berlin
+
+Schema of input data:
+![input schema](assets/input_schema.png)
