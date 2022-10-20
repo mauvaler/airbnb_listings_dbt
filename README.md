@@ -5,6 +5,8 @@ Tools:
         dbt power user
         dbt formatter
 
+- dbt installed via pip venv
+
 Testing:
     - dbt-expectations https://github.com/calogica/dbt-expectations
 
