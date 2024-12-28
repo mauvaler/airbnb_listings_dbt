@@ -4,3 +4,5 @@ dbt_packages/
 logs/
 .vscode/
 .DS_Store
+.user.*
+package-lock.yml
