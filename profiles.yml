@@ -1,0 +1,12 @@
+airbnb_listings:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: mypapass
+      port: 5432
+      dbname: airbnb_listings
+      schema: dbt_valer
+      threads: 4

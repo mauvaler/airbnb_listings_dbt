@@ -1,13 +1,11 @@
-
-# Name your project! Project names should contain only lowercase characters
-# and underscores. A good package name should reflect your organization's
-# name or the intended use of these models
-name: 'dbtlabs'
+name: 'airbnb_listings'
 version: '1.0.0'
 config-version: 2
 
+
 # This setting configures which "profile" dbt uses for this project.
-profile: 'dbtlabs'
+profile: 'airbnb_listings'
+
 
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be
@@ -33,7 +31,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  dbtlabs:
+  airbnb_listings:
     +materialized: view
     +post-hook:
       - "GRANT SELECT ON {{ this }} TO ROLE REPORTER"
@@ -41,4 +39,4 @@ models:
       +materialized: table
     src:
       +materialized: ephemeral
-    
+  
