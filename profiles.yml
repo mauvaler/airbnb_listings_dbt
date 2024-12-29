@@ -4,9 +4,9 @@ airbnb_listings:
     dev:
       type: postgres
       host: localhost
-      user: postgres
-      password: mypapass
+      user: mvaler
+      password: mypostgres
       port: 5432
-      dbname: airbnb_listings
-      schema: dbt_mvaler
+      dbname: airbnb
+      schema: raw
       threads: 4

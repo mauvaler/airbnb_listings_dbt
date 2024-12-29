@@ -1,6 +1,6 @@
 {% docs __overview__ %} # Airbnb pipeline
 
-Hey, welcome to our Airbnb - Berlin pipeline documentation!
+Hey, welcome to our Airbnb - Rio de Janeiro pipeline documentation!
 
 Here is the schema of our input data:
 ![input schema](assets/input_schema.png)

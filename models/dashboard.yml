@@ -11,5 +11,5 @@ exposures:
         - ref('dim_listings_with_hosts')
         - ref('mart_full_moon_reviews')
     owner:
-        name: dbt labs
-        email: hello@hello.com
+        name: mvaler
+        email: mau.valer@icloud.com

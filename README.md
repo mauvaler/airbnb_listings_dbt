@@ -16,6 +16,6 @@ Testing:
 ### Project Overview:
 
 Checking whether full moon impacts on reviews from Berlin listings on Airbnb.
-Data Source: http://insideairbnb.com/berlin
+Data Source: http://insideairbnb.com/rio-de-janeiro/
 DM:
 ![input schema](assets/input_schema.png)
